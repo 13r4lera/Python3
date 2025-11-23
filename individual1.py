@@ -4,8 +4,8 @@
 import sys
 
 
-wallpaper_cost = int(input("How much did one wallpaper cost? "))
-paint_cost = int(input("How much did one paint cost? "))
+wallpaper_cost = float(input("How much did one wallpaper cost? "))
+paint_cost = float(input("How much did one paint cost? "))
 
 if wallpaper_cost <= 0 or paint_cost <= 0:
     print("Cost must be positive", file=sys.stderr)
